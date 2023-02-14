@@ -1,0 +1,8 @@
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq5\Linq5\bin\Debug\Linq5.exe.config
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq5\Linq5\bin\Debug\Linq5.exe
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq5\Linq5\bin\Debug\Linq5.pdb
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq5\Linq5\obj\Debug\Linq5.Form1.resources
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq5\Linq5\obj\Debug\Linq5.Properties.Resources.resources
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq5\Linq5\obj\Debug\Linq5.csproj.GenerateResource.Cache
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq5\Linq5\obj\Debug\Linq5.exe
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq5\Linq5\obj\Debug\Linq5.pdb

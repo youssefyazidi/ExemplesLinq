@@ -1,0 +1,6 @@
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq3\Linq3\bin\Debug\Linq3.exe.config
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq3\Linq3\bin\Debug\Linq3.exe
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq3\Linq3\bin\Debug\Linq3.pdb
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq3\Linq3\obj\Debug\Linq3.csprojResolveAssemblyReference.cache
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq3\Linq3\obj\Debug\Linq3.exe
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq3\Linq3\obj\Debug\Linq3.pdb

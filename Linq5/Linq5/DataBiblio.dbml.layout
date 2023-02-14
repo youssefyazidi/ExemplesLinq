@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataBiblio">
+  <DataContextMoniker Name="/DataBiblioDataContext" />
+  <nestedChildShapes>
+    <classShape Id="dd290182-25c2-46f6-b7d4-832fa84a7c3a" absoluteBounds="3.5, 0.875, 2, 1.7708968098958333">
+      <DataClassMoniker Name="/DataBiblioDataContext/Livre" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a7af5a8b-561b-4329-b490-b91a57caac79" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ff1b65ca-f9b5-4a67-811e-2c98a1fa4eb3" absoluteBounds="0.75, 1.25, 2, 1.1939925130208338">
+      <DataClassMoniker Name="/DataBiblioDataContext/Theme" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f0c2b046-c2bb-4058-ac42-bf11e3b8e18e" absoluteBounds="0.765, 1.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.84699625651042); (3.5 : 1.84699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataBiblioDataContext/Theme/Theme_Livre" />
+      <nodes>
+        <classShapeMoniker Id="ff1b65ca-f9b5-4a67-811e-2c98a1fa4eb3" />
+        <classShapeMoniker Id="dd290182-25c2-46f6-b7d4-832fa84a7c3a" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

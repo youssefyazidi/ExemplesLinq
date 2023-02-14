@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Biblio" Class="DataBiblioDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLExpress;Initial Catalog=Biblio;Integrated Security=True" SettingsObjectName="Linq5.Properties.Settings" SettingsPropertyName="BiblioConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Livre" Member="Livre">
+    <Type Name="Livre">
+      <Column Name="CodeL" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Titre" Type="System.String" DbType="VarChar(80)" CanBeNull="true" />
+      <Column Name="Auteur" Type="System.String" DbType="VarChar(80)" CanBeNull="true" />
+      <Column Name="NbExemplaires" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CodeTh" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Theme_Livre" Member="Theme" ThisKey="CodeTh" OtherKey="CodeTh" Type="Theme" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Theme" Member="Theme">
+    <Type Name="Theme">
+      <Column Name="CodeTh" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IntituleTh" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Association Name="Theme_Livre" Member="Livre" ThisKey="CodeTh" OtherKey="CodeTh" Type="Livre" />
+    </Type>
+  </Table>
+</Database>

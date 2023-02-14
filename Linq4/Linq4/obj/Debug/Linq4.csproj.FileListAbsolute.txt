@@ -1,0 +1,6 @@
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq4\Linq4\bin\Debug\Linq4.exe.config
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq4\Linq4\bin\Debug\Linq4.exe
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq4\Linq4\bin\Debug\Linq4.pdb
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq4\Linq4\obj\Debug\Linq4.csprojResolveAssemblyReference.cache
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq4\Linq4\obj\Debug\Linq4.exe
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq4\Linq4\obj\Debug\Linq4.pdb

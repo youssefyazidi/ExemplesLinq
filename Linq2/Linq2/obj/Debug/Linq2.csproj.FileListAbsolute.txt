@@ -1,0 +1,6 @@
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq2\Linq2\bin\Debug\Linq2.exe.config
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq2\Linq2\bin\Debug\Linq2.exe
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq2\Linq2\bin\Debug\Linq2.pdb
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq2\Linq2\obj\Debug\Linq2.csprojResolveAssemblyReference.cache
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq2\Linq2\obj\Debug\Linq2.exe
+C:\Users\YAZIDI\Desktop\Projets CDS 2022\Linq2\Linq2\obj\Debug\Linq2.pdb

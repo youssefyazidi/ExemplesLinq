@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Biblio" Class="DataBiblioDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;Initial Catalog=Biblio;Integrated Security=True" SettingsObjectName="Linq3.Properties.Settings" SettingsPropertyName="BiblioConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Adherent" Member="Adherent">
+    <Type Name="Adherent">
+      <Column Name="CodeA" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NomA" Type="System.String" DbType="VarChar(80)" CanBeNull="true" />
+      <Column Name="Adresse" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DateInscription" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Couleur" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Livre" Member="Livre">
+    <Type Name="Livre">
+      <Column Name="CodeL" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Titre" Type="System.String" DbType="VarChar(80)" CanBeNull="true" />
+      <Column Name="Auteur" Type="System.String" DbType="VarChar(80)" CanBeNull="true" />
+      <Column Name="NbExemplaires" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CodeTh" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Theme_Livre" Member="Theme" ThisKey="CodeTh" OtherKey="CodeTh" Type="Theme" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Theme" Member="Theme">
+    <Type Name="Theme">
+      <Column Name="CodeTh" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IntituleTh" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Association Name="Theme_Livre" Member="Livre" ThisKey="CodeTh" OtherKey="CodeTh" Type="Livre" />
+    </Type>
+  </Table>
+</Database>
